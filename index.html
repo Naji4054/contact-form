@@ -1,60 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="./style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
 </head>
 <body>
     <main>
-        <form class="form container">
-            <h1> Contact Form</h1>
+        <form class="form-container">
+            <h1> Contact Us</h1>
 
             <div class="name">
-
                 <div class="fname ">
-                    <label>First Name
-                        <input type="text" required>
-                    </label>
+                    <label>First Name <span class="star">*</span></label>
+                    <input type="text" required>
                 </div>
 
                 <div class="lname">
-                    <label>Last Name
-                        <input type="text" required>
-                    </label>
+                    <label>Last Name <span class="star">*</span></label>
+                    <input type="text" required>
                 </div>
-
             </div>
 
             <div class="email">
-                 <label>Email Address
+                 <label>Email Address <span class="star">*</span>
                     <input type="email" required>
                 </label>
             </div>
 
             <div class="query">
-                <label>Query Type</label>
+                <label>Query Type <span class="star">*</span></label>
                 
+               <div class="qbox">
                 <div class="q1">
-                    <input type="radio" required>
-                    <label> General Enquiry</label>    
+                <label><input type="radio" required> General Enquiry</label>    
                 </div>
 
                 <div class="q2">
-                    <input type="radio" required>
-                    <label> Support Request</label>
+                <label><input type="radio" required> Support Request</label>
                 </div>
+               </div>
 
             </div>
 
                 <div class="text-area">
-                    <label>Message</label>
+                    <label>Message <span class="star">*</span></label>
                     <textarea></textarea>
                 </div>
 
                 <div class="consent">
-                    <input type="checkbox" required>
-                    <label> I consent to being contacted by the team</label>
+                    
+                    <label><input type="checkbox" required>I consent to being contacted by the team <span class="star">*</span></label>
                 </div>
 
                 <div class="submit">
