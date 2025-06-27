@@ -13,7 +13,8 @@ body{
 label{
     font-size: 13px;
     display:block;
-    font-weight: 100;
+    font-weight: 400;
+    color:rgba(147, 146, 146, 0.992)
     
 }
 input{
